@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/jerocamReact/static/css/main.7628db80.chunk.css",
+    "main.js": "/jerocamReact/static/js/main.b49b00a5.chunk.js",
+    "main.js.map": "/jerocamReact/static/js/main.b49b00a5.chunk.js.map",
+    "runtime-main.js": "/jerocamReact/static/js/runtime-main.f02bffbd.js",
+    "runtime-main.js.map": "/jerocamReact/static/js/runtime-main.f02bffbd.js.map",
+    "static/js/2.35081ace.chunk.js": "/jerocamReact/static/js/2.35081ace.chunk.js",
+    "static/js/2.35081ace.chunk.js.map": "/jerocamReact/static/js/2.35081ace.chunk.js.map",
+    "static/js/3.13b1e5a3.chunk.js": "/jerocamReact/static/js/3.13b1e5a3.chunk.js",
+    "static/js/3.13b1e5a3.chunk.js.map": "/jerocamReact/static/js/3.13b1e5a3.chunk.js.map",
+    "index.html": "/jerocamReact/index.html",
+    "static/css/main.7628db80.chunk.css.map": "/jerocamReact/static/css/main.7628db80.chunk.css.map",
+    "static/js/2.35081ace.chunk.js.LICENSE.txt": "/jerocamReact/static/js/2.35081ace.chunk.js.LICENSE.txt",
+    "static/media/bg.cd3e0c36.mp4": "/jerocamReact/static/media/bg.cd3e0c36.mp4",
+    "static/media/form-img.4df932dd.png": "/jerocamReact/static/media/form-img.4df932dd.png",
+    "static/media/ps4-img.07383e6f.png": "/jerocamReact/static/media/ps4-img.07383e6f.png",
+    "static/media/react-img.a6908d61.png": "/jerocamReact/static/media/react-img.a6908d61.png",
+    "static/media/sunset-img.eb0b40e6.png": "/jerocamReact/static/media/sunset-img.eb0b40e6.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.f02bffbd.js",
+    "static/js/2.35081ace.chunk.js",
+    "static/css/main.7628db80.chunk.css",
+    "static/js/main.b49b00a5.chunk.js"
+  ]
+}
