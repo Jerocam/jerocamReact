@@ -15,7 +15,7 @@ function App() {
       <Routes/>
       
       <div className="container alert alert-primary text-center" role="alert">
-        <h5> Click <a href="https://github.com/Jerocam" className="alert-link">the link</a> to get the source code from GitHub.</h5>
+        <h5> Click <a href="https://github.com/Jerocam/jerocamReact" className="alert-link">the link</a> to get the source code from GitHub.</h5>
       </div>
 
       <footer className="page-footer font-small unique-color-dark darken-3 pt-3">
