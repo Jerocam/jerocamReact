@@ -1,15 +1,15 @@
 import React, { Component } from 'react';
 import bgvideo from '../assets/images/bg.mp4';
-import CardList from '../components/Cards';
-import img1 from '../assets/images/sunset-img.png';
-import img2 from '../assets/images/form-img.png';
-import img3 from '../assets/images/ps4-img.png';
+// import CardList from '../components/Cards';
+// import img1 from '../assets/images/sunset-img.png';
+// import img2 from '../assets/images/form-img.png';
+// import img3 from '../assets/images/ps4-img.png';
 
-export const cards = [
-  {title:"Weather", caption:"Applications about weather", cardImage:img1, btnClick:"//www.google.com"},
-  {title:"Forms", caption:"Complete Form using with React", cardImage:img2, btnClick: "//www.facebook.com"},
-  {title:"Video-games", caption:"Multiple pictures, sliders, gallery and others", cardImage:img3, btnClick: "//www.github.com"}
-];
+// const cards = [
+//   {title:"Weather", caption:"Applications about weather", cardImage:img1, btnClick:"//www.google.com"},
+//   {title:"Forms", caption:"Complete Form using with React", cardImage:img2, btnClick: "//www.facebook.com"},
+//   {title:"Video-games", caption:"Multiple pictures, sliders, gallery and others", cardImage:img3, btnClick: "//www.github.com"}
+// ];
 
 class Home extends Component {
   render() {
@@ -29,7 +29,7 @@ class Home extends Component {
                 <div className="container">
                     <h2 className="h1-responsive font-weight-bold mb-5">My Projects</h2>
                     <div className="row text-center">
-                        <CardList cardOptions={cards}/>
+                        {/* <CardList cardOptions={cards}/> */}
                     </div>
                 </div>
             </section>
