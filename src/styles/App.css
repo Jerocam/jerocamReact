@@ -59,12 +59,16 @@ body {
 }
 
 .smedia a{
-  margin: 0 1em;
+  margin: 0 0.5em;
   font-size: 3em;
 }
 
 .smedia a:hover{
   color: #61dafb;
+}
+
+.page-footer .smedia {
+  margin-bottom: 1em !important;
 }
 
 .abImg{
