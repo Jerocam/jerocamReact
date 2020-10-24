@@ -15,13 +15,13 @@ class App extends Component {
       <HashRouter basename="/">
         <div>
           <Navbar/>
-          {/* <Switch> */}
+          <Switch>
             {/* <Route exact path="/" component={()=> (<Redirect to="/home"/>)} /> */}
             <Route exact path="/" component={Home} />
             <Route path="/about" component={About} />
             <Route path="/contact" component={Contact} />
             <Route component={Error} />
-          {/* </Switch> */}
+          </Switch>
 
           {/* <div className="container alert alert-primary text-center" role="alert">
         <h5> Click <a href="https://github.com/Jerocam/jerocamReact" className="alert-link">the link</a> to get the source code from GitHub.</h5>

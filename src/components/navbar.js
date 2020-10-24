@@ -7,7 +7,7 @@ const Navbar = () => {
     <nav>
         <ul className="nav justify-content-center unique-color-dark py-4">
           <li className="nav-item">
-              <NavLink activeClassName="navbar__link--active" className="navbar__link" to="/">HOME</NavLink>
+              <NavLink exact activeClassName="navbar__link--active" className="navbar__link" to="/">HOME</NavLink>
           </li>
           <li className="nav-item">
               <NavLink activeClassName="navbar__link--active" className="navbar__link" to="/about">ABOUT</NavLink>
