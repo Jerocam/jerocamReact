@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 import './styles/App.css';
-// import Routes from './routes/routes';
 import Navbar from './components/navbar';
 import { FaAngellist, FaLinkedin, FaGithub} from 'react-icons/fa';
 import { HashRouter, Route, Switch } from 'react-router-dom';
@@ -16,7 +15,6 @@ class App extends Component {
         <div>
           <Navbar/>
           <Switch>
-            {/* <Route exact path="/" component={()=> (<Redirect to="/home"/>)} /> */}
             <Route exact path="/" component={Home} />
             <Route path="/about" component={About} />
             <Route path="/contact" component={Contact} />
