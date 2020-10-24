@@ -3,7 +3,7 @@ import './styles/App.css';
 // import Routes from './routes/routes';
 import Navbar from './components/navbar';
 // import { FaAngellist, FaLinkedin, FaGithub} from 'react-icons/fa';
-import { BrowserRouter, Route, Switch, Redirect } from 'react-router-dom';
+import { HashRouter, Route, Switch, Redirect } from 'react-router-dom';
 import Home from './pages/home';
 import About from './pages/about';
 import Contact from './pages/contact';
@@ -12,16 +12,16 @@ import Error from './pages/error';
 class App extends Component {
   render(){
     return (
-      <BrowserRouter>
+      <HashRouter basename="/">
         <div>
           <Navbar/>
-          <Switch>
-            <Route exact path="/" component={()=> (<Redirect to="/home"/>)} />
+          {/* <Switch> */}
+            {/* <Route exact path="/" component={()=> (<Redirect to="/home"/>)} /> */}
             <Route exact path="/home" component={Home} />
             <Route path="/about" component={About} />
             <Route path="/contact" component={Contact} />
             <Route component={Error} />
-          </Switch>
+          {/* </Switch> */}
 
           {/* <div className="container alert alert-primary text-center" role="alert">
         <h5> Click <a href="https://github.com/Jerocam/jerocamReact" className="alert-link">the link</a> to get the source code from GitHub.</h5>
@@ -45,7 +45,7 @@ class App extends Component {
         </div>
       </footer> */}
         </div>
-      </BrowserRouter>
+      </HashRouter>
     );
   }
 }
