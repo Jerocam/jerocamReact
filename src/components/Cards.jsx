@@ -1,5 +1,4 @@
 import React from 'react';
-// import { Link } from 'react-router-dom';
 import '../styles/App.css';
 
 const cardList = ({cardOptions})=> {
@@ -15,7 +14,6 @@ const cardList = ({cardOptions})=> {
                     <div className="card-body pb-0">
                     <h4 className="font-weight-bold my-3">{title}</h4>
                     <p className="grey-text">{caption}</p>
-                        {/* <Link to='//https://google.com/'><button>test</button></Link>  */}
                         <a className="btn text-white stylish-color-dark btnHover" target="_blank" href={btnClick} rel="noopener noreferrer"><i className="fa fa-clone left"></i> View project</a>
                     </div>
                     </div>
