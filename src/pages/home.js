@@ -8,7 +8,7 @@ import img3 from '../assets/images/ps4-img.png';
 const cards = [
   {title:"Weather", caption:"Applications about weather", cardImage:img1, btnClick:"//jerocam.github.io/weather-jerocam/"},
   {title:"Forms", caption:"Complete Form using with React", cardImage:img2, btnClick: "//www.github.com"},
-  {title:"Video-games", caption:"Multiple pictures, sliders, gallery and others", cardImage:img3, btnClick: "//www.github.com"}
+  {title:"Video-games", caption:"Information about videogames", cardImage:img3, btnClick: "//jerocam.github.io/jerocam-db-games/"}
 ];
 
 class Home extends Component {
