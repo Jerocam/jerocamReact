@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/jerocamReact/static/css/main.d5677ada.chunk.css",
-    "main.js": "/jerocamReact/static/js/main.38a71ec5.chunk.js",
-    "main.js.map": "/jerocamReact/static/js/main.38a71ec5.chunk.js.map",
+    "main.js": "/jerocamReact/static/js/main.49673546.chunk.js",
+    "main.js.map": "/jerocamReact/static/js/main.49673546.chunk.js.map",
     "runtime-main.js": "/jerocamReact/static/js/runtime-main.9d2fce82.js",
     "runtime-main.js.map": "/jerocamReact/static/js/runtime-main.9d2fce82.js.map",
     "static/js/2.28ca62cd.chunk.js": "/jerocamReact/static/js/2.28ca62cd.chunk.js",
@@ -14,6 +14,7 @@
     "static/js/2.28ca62cd.chunk.js.LICENSE.txt": "/jerocamReact/static/js/2.28ca62cd.chunk.js.LICENSE.txt",
     "static/media/bg.cd3e0c36.mp4": "/jerocamReact/static/media/bg.cd3e0c36.mp4",
     "static/media/mangabooks.a738f056.png": "/jerocamReact/static/media/mangabooks.a738f056.png",
+    "static/media/movie.2dbc5277.png": "/jerocamReact/static/media/movie.2dbc5277.png",
     "static/media/ps4-img.28d6d323.png": "/jerocamReact/static/media/ps4-img.28d6d323.png",
     "static/media/react-img.a6908d61.png": "/jerocamReact/static/media/react-img.a6908d61.png",
     "static/media/sunset-img.eb0b40e6.png": "/jerocamReact/static/media/sunset-img.eb0b40e6.png"
@@ -22,6 +23,6 @@
     "static/js/runtime-main.9d2fce82.js",
     "static/js/2.28ca62cd.chunk.js",
     "static/css/main.d5677ada.chunk.css",
-    "static/js/main.38a71ec5.chunk.js"
+    "static/js/main.49673546.chunk.js"
   ]
 }
