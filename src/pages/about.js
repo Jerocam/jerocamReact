@@ -1,5 +1,7 @@
 import React, { Component } from 'react';
 import imgAbout from '../assets/images/react-img.png';
+import imgAbout2 from '../assets/images/rest-api.png';
+import imgAbout4 from '../assets/images/rapidapi.png';
 import '../styles/App.css';
 
 class About extends Component {
@@ -8,11 +10,24 @@ class About extends Component {
         <div className="container"> 
           <div className="row abImg">
             <div className="col-md-6">
-              <img alt="aboutimage" src={imgAbout} />
+              <div className="row mb-3"> 
+                <div className="col-md-6">
+                  <img alt="aboutimage" src={imgAbout2} />
+                </div>
+                <div className="col-md-6">
+                  <img alt="aboutimage" src={imgAbout} />
+                </div>
+              </div>
+              <div className="row">
+                <div className="col-md-12">
+                  <img alt="aboutimage" src={imgAbout4} />
+                </div>
+              </div>
             </div>
             <div className="col-md-6">
-              <h2 class="h1-responsive font-weight-bold pt-3">About Me</h2>
-              <p>My name is Jeronimo Jose Ocampos Escobar. I am entry-level Front End Developer and Web Designer, and intermediate-level Graphic Designer. I have a passion for design, and am a high-motivated, fast-learner who is excited to build successful websites that are very organized, easy to use and fast to load. Currently, I am seeking an internship that will challenge me to improve my skill strength with the latest Front End Development tools.</p>
+              <h2 className="h2-responsive font-weight-bold pt-3" >RapidAPI - The Next Generation API Platform</h2>
+              <h3>What is it?</h3>
+              <p>RapidAPI is the world's largest API Marketplace — used by over one million developers to discover and connect to thousands of APIs. Using RapidAPI, developers can search and test the APIs, subscribe, and connect to the APIs — all with a single account, single API key and single SDK.</p>
             </div>
           </div>
         </div>

@@ -29,7 +29,7 @@ class App extends Component {
         <div className="container">
           <div className="row">
             <div className="col-md-12 mb-4">
-              <p className="text-center">Visit my links</p>
+              <h6 className="text-center font-weight-bold">Visit my links</h6>
               <div className="flex-center smedia">
                 <a href="https://angel.co/u/jeronimo-jose-ocampos" target="_blank" rel="noopener noreferrer"><FaAngellist /></a>
                 <a href="https://github.com/Jerocam" target="_blank" rel="noopener noreferrer"><FaGithub /></a>
