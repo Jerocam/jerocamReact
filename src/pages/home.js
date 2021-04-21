@@ -14,7 +14,7 @@ const cards = [
   {title:"Video-games", caption:"Database about videogames", cardImage:img3, btnClick: "//jerocam.github.io/jerocam-db-games/"},
   {title:"Movie Search", caption:"Find your favorite movie", cardImage:img4, btnClick: "//jerocam.github.io/jerocam-db-movies/"},
   {title:"COVID-19 Info", caption:"Statistics about COVID-19", cardImage:img5, btnClick: "//serene-euler-b35824.netlify.app/"},
-  {title:"Sports Live Search", caption:"Find your favorite sport info", cardImage:img6, btnClick: "//jerocam.github.io/jerocam-db-movies/"}
+  {title:"NBA Live Search", caption:"Find your favorite NBA info", cardImage:img6, btnClick: "//eager-banach-2585cd.netlify.app/"}
 ];
 
 class Home extends Component {
